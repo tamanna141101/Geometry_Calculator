@@ -1,0 +1,11 @@
+.bg-color {
+    background-color: rgb(214, 235, 243);
+}
+
+/* @media only screen and (max-width: 480px){
+    .text_center{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+} */

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog</title>
+  <!-- custom CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- FAQ section -->
+  <section id="about">
+    <div class="container p-5">
+      <div class="course-text text-center col-lg-6 col-md-12 col-sm-12" style=" margin:auto">
+        <h2>Frequently Asked Questions</h2>
+        <p class="text-muted mb-5">It is a long established fact that a reader will be distracted by the readable
+          content of a page when looking at its layout</p>
+      </div>
+
+      <div class="px-5 mb-5 col-lg-9 " style=" margin:auto">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                What is DOM and what is the purpose of DOM?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body text-muted overflow-auto">
+                DOM stands for Document Object Model, which is a programming interface for web documents. Using Dom
+                Javascript can change all the HTML elements , attributes, CSS style in the page.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How will you select HTML elements using DOM? Name the DOM methods.
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body text-muted overflow-auto">
+                There are five methods for Select HTML elements using DOM-- <br>
+                1.getElementsByTagName() <br>
+                2.getElementsByClassName() <br>
+                3.getElementById() <br>
+                4.querySelector() <br>
+                5.querySelectorAll()
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is event bubble?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body text-muted overflow-auto">
+                When an event happens on an element, like a click or a hover, it will also trigger the same event on all
+                of its parent elements up to the top of the document. This is called event bubble.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What is a callback function and why will you use it?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body text-muted overflow-auto">
+                A callback function is a function that is executed after another function is executed. And it is called
+                when a certain event occurs. Using a callback function allows a program to continue executing while
+                waiting for an external operation to complete, and then perform a specific action when that operation is
+                finished.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
